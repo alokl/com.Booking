@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="10288" started-at="2021-06-03T15:40:11Z" finished-at="2021-06-03T15:40:21Z">
+  <suite name="Suite" duration-ms="11235" started-at="2021-06-03T16:53:18Z" finished-at="2021-06-03T16:53:29Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="10288" started-at="2021-06-03T15:40:11Z" finished-at="2021-06-03T15:40:21Z">
+    <test name="Test" duration-ms="11235" started-at="2021-06-03T16:53:18Z" finished-at="2021-06-03T16:53:29Z">
       <class name="com.Blazedemo.Testcases.TC1VerifyFlightBooking">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Blazedemo.Testcases.TC1VerifyFlightBooking@553f17c]" name="setUp" is-config="true" duration-ms="5770" started-at="2021-06-03T21:10:11Z" finished-at="2021-06-03T21:10:17Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Blazedemo.Testcases.TC1VerifyFlightBooking@553f17c]" name="setUp" is-config="true" duration-ms="7113" started-at="2021-06-03T22:23:18Z" finished-at="2021-06-03T22:23:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyRecords(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Blazedemo.Testcases.TC1VerifyFlightBooking@553f17c]" name="verifyRecords" duration-ms="6" started-at="2021-06-03T21:10:18Z" data-provider="loginData" finished-at="2021-06-03T21:10:18Z">
+        <test-method status="PASS" signature="verifyRecords(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Blazedemo.Testcases.TC1VerifyFlightBooking@553f17c]" name="verifyRecords" duration-ms="4" started-at="2021-06-03T22:23:25Z" data-provider="loginData" finished-at="2021-06-03T22:23:26Z">
           <params>
             <param index="0">
               <value>
@@ -82,23 +82,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRecords -->
-        <test-method status="PASS" signature="checkValidUser()[pri:1, instance:com.Blazedemo.Testcases.TC1VerifyFlightBooking@553f17c]" name="checkValidUser" duration-ms="1088" started-at="2021-06-03T21:10:18Z" finished-at="2021-06-03T21:10:19Z">
+        <test-method status="PASS" signature="checkValidUser()[pri:1, instance:com.Blazedemo.Testcases.TC1VerifyFlightBooking@553f17c]" name="checkValidUser" duration-ms="869" started-at="2021-06-03T22:23:26Z" finished-at="2021-06-03T22:23:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkValidUser -->
-        <test-method status="PASS" signature="checkFlightselect()[pri:2, instance:com.Blazedemo.Testcases.TC1VerifyFlightBooking@553f17c]" name="checkFlightselect" duration-ms="1121" started-at="2021-06-03T21:10:19Z" finished-at="2021-06-03T21:10:20Z">
+        <test-method status="PASS" signature="checkFlightselect()[pri:2, instance:com.Blazedemo.Testcases.TC1VerifyFlightBooking@553f17c]" name="checkFlightselect" duration-ms="693" started-at="2021-06-03T22:23:26Z" finished-at="2021-06-03T22:23:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFlightselect -->
-        <test-method status="PASS" signature="checkCustomerDetails()[pri:3, instance:com.Blazedemo.Testcases.TC1VerifyFlightBooking@553f17c]" name="checkCustomerDetails" duration-ms="1354" started-at="2021-06-03T21:10:20Z" finished-at="2021-06-03T21:10:21Z">
+        <test-method status="PASS" signature="checkCustomerDetails()[pri:3, instance:com.Blazedemo.Testcases.TC1VerifyFlightBooking@553f17c]" name="checkCustomerDetails" duration-ms="1570" started-at="2021-06-03T22:23:27Z" finished-at="2021-06-03T22:23:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCustomerDetails -->
-        <test-method status="PASS" signature="checkbookingconfirm()[pri:4, instance:com.Blazedemo.Testcases.TC1VerifyFlightBooking@553f17c]" name="checkbookingconfirm" duration-ms="103" started-at="2021-06-03T21:10:21Z" finished-at="2021-06-03T21:10:21Z">
+        <test-method status="PASS" signature="checkbookingconfirm()[pri:4, instance:com.Blazedemo.Testcases.TC1VerifyFlightBooking@553f17c]" name="checkbookingconfirm" duration-ms="116" started-at="2021-06-03T22:23:29Z" finished-at="2021-06-03T22:23:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkbookingconfirm -->
-        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:com.Blazedemo.Testcases.TC1VerifyFlightBooking@553f17c]" name="TeardownTest" is-config="true" duration-ms="966" started-at="2021-06-03T21:10:21Z" finished-at="2021-06-03T21:10:22Z">
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:com.Blazedemo.Testcases.TC1VerifyFlightBooking@553f17c]" name="TeardownTest" is-config="true" duration-ms="1025" started-at="2021-06-03T22:23:29Z" finished-at="2021-06-03T22:23:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->

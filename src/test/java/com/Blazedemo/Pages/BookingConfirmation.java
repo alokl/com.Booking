@@ -1,5 +1,6 @@
 package com.Blazedemo.Pages;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
@@ -13,10 +14,10 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
 import com.test.automation.uiAutomation.testBase.TestBase.TestBaseFlight;
-//import com.test.automation.uiAutomation.uiActions.HomePage;
+
 
 public class BookingConfirmation extends TestBaseFlight {
-	//public static final Logger log = Logger.getLogger(HomePage.class.getName());
+
 	WebDriver driver;
 	
 	public BookingConfirmation(WebDriver ldriver)
@@ -35,6 +36,8 @@ public class BookingConfirmation extends TestBaseFlight {
 	@FindBy(xpath = "]/td[1]") 
 	WebElement Afterxpath;
 	
+	@FindBy(xpath ="//table/tbody/tr/td[1]")
+	public List<WebElement> rowsWithData;
 
 	 
 
@@ -50,7 +53,7 @@ public class BookingConfirmation extends TestBaseFlight {
 	
 	public void BookingReference()
 	{
-		for(int i=1; i<=4; i++){
+		for(int i=1; i<=rowsWithData.size(); i++){
 			String name = driver.findElement(By.xpath(before_xpath + i + after_xpath)).getText();
 			System.out.println(name);
 			if(name.contains("Id"))

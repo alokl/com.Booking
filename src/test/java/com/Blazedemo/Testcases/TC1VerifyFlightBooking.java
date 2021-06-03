@@ -20,7 +20,11 @@ import com.Blazedemo.Pages.ReserveFlightPage;
 //import com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration;
 //import com.crm.qa.pages.LoginPage;
 import com.test.automation.uiAutomation.testBase.TestBase.TestBaseFlight;
-
+/**
+ * @author alokl
+ * Testcases for end  to end flight booking
+ *
+ */
 
 
 public class TC1VerifyFlightBooking extends TestBaseFlight
