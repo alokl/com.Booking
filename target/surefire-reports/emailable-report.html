@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite</th></tr><tr><td><a href="#t0">Test</a></td><td class="num">7</td><td class="num">0</td><td class="num attn">4</td><td class="num">195,761</td><td></td><td></td></tr></table><table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Selenium3.com.POM.TestGuru99MultipleSession</td><td><a href="#m0">executSessionTWO</a></td><td rowspan="1">1615654951958</td><td rowspan="1">61212</td></tr><tr class="failedodd"><td rowspan="1">com.wordpress.Testcases.TC1VerifyValidLogin</td><td><a href="#m1">checkValidUser</a></td><td rowspan="1">1615654878665</td><td rowspan="1">40028</td></tr><tr class="failedeven"><td rowspan="2">com.wordpress.Testcases.TC2VerifyHomePage</td><td><a href="#m2">verifyLoginWithDifferentRecords</a></td><td rowspan="2">1615654833714</td><td rowspan="2">4846</td></tr><tr class="failedeven"><td><a href="#m3">verifyLoginWithDifferentRecords</a></td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Selenium3.com.POM.TestGuru99MultipleSession</td><td><a href="#m4">executSessionOne</a></td><td rowspan="1">1615654918697</td><td rowspan="1">15660</td></tr><tr class="passedeven"><td><a href="#m5">executSessionTHREE</a></td><td rowspan="1">1615654934358</td><td rowspan="1">17599</td></tr><tr class="passedodd"><td rowspan="5">com.wordpress.Testcases.TC2VerifyHomePage</td><td><a href="#m6">verifyLoginWithDifferentRecords</a></td><td rowspan="5">1615654878659</td><td rowspan="5">0</td></tr><tr class="passedodd"><td><a href="#m7">verifyLoginWithDifferentRecords</a></td></tr><tr class="passedodd"><td><a href="#m8">verifyLoginWithDifferentRecords</a></td></tr><tr class="passedodd"><td><a href="#m9">verifyLoginWithDifferentRecords</a></td></tr><tr class="passedodd"><td><a href="#m10">verifyLoginWithDifferentRecords</a></td></tr></tbody></table><h2>Test</h2><h3 id="m0">Selenium3.com.POM.TestGuru99MultipleSession#executSessionTWO</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;ALOKL-PC&apos;, ip: &apos;192.168.29.217&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:108)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:104)
+	at Selenium3.com.POM.TestGuru99MultipleSession.executSessionTWO(TestGuru99MultipleSession.java:27)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.wordpress.Testcases.TC1VerifyValidLogin#checkValidUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #user_login
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;ALOKL-PC&apos;, ip: &apos;192.168.29.217&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\alokl\AppData\Local\Temp\rust_mozprofileU4L444, rotatable=false, moz:geckodriverVersion=0.29.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=86.0, moz:shutdownTimeout=60000.0, platformVersion=6.1, moz:processID=6020.0, browserName=firefox, moz:buildID=20210222142601, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: b24ec20f-b8ce-4af7-89ff-faedaa7492f9
+*** Element info: {Using=id, value=user_login}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.wordpress.Pages.LoginPageNew.setUserID(LoginPageNew.java:38)
+	at com.wordpress.Testcases.TC1VerifyValidLogin.checkValidUser(TC1VerifyValidLogin.java:24)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.wordpress.Testcases.TC2VerifyHomePage#verifyLoginWithDifferentRecords</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>admin</td><td>demo123</td><td>y</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: expected [Howdy, admin] but found [Hi, admin]
+	at com.wordpress.Testcases.TC2VerifyHomePage.verifyLoginWithDifferentRecords(TC2VerifyHomePage.java:53)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.wordpress.Testcases.TC2VerifyHomePage#verifyLoginWithDifferentRecords</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>admin</td><td>demo123</td><td>y</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #user_login
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;ALOKL-PC&apos;, ip: &apos;192.168.29.217&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\alokl\AppData\Local\Temp\rust_mozprofileU4L444, rotatable=false, moz:geckodriverVersion=0.29.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=86.0, moz:shutdownTimeout=60000.0, platformVersion=6.1, moz:processID=6020.0, browserName=firefox, moz:buildID=20210222142601, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: b24ec20f-b8ce-4af7-89ff-faedaa7492f9
+*** Element info: {Using=id, value=user_login}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at com.wordpress.Pages.LoginPageNew.setUserID(LoginPageNew.java:38)
+	at com.wordpress.Testcases.TC2VerifyHomePage.verifyLoginWithDifferentRecords(TC2VerifyHomePage.java:49)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">Selenium3.com.POM.TestGuru99MultipleSession#executSessionOne</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">Selenium3.com.POM.TestGuru99MultipleSession#executSessionTHREE</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">com.wordpress.Testcases.TC2VerifyHomePage#verifyLoginWithDifferentRecords</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>admin</td><td>demo123</td><td>n</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.wordpress.Testcases.TC2VerifyHomePage#verifyLoginWithDifferentRecords</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>admin</td><td>demo123</td><td>n</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.wordpress.Testcases.TC2VerifyHomePage#verifyLoginWithDifferentRecords</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>admin</td><td>demo123</td><td>n</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">com.wordpress.Testcases.TC2VerifyHomePage#verifyLoginWithDifferentRecords</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>admin</td><td>demo123</td><td>n</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m10">com.wordpress.Testcases.TC2VerifyHomePage#verifyLoginWithDifferentRecords</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>admin</td><td>demo123</td><td>n</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

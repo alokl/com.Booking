@@ -1,0 +1,4 @@
+com\wordpress\Testcases\TC1VerifyValidLogin.class
+com\wordpress\Pages\LoginPageNew.class
+com\wordpress\Pages\HomePage.class
+com\wordpress\Testcases\TC2VerifyHomePage.class

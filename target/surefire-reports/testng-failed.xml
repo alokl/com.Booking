@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.wordpress.Testcases.TC1VerifyValidLogin">
+        <methods>
+          <include name="checkValidUser"/>
+          <include name="initialize"/>
+          <include name="TeardownTest"/>
+        </methods>
+      </class> <!-- com.wordpress.Testcases.TC1VerifyValidLogin -->
+      <class name="Selenium3.com.POM.TestGuru99MultipleSession">
+        <methods>
+          <include name="executSessionTWO"/>
+        </methods>
+      </class> <!-- Selenium3.com.POM.TestGuru99MultipleSession -->
+      <class name="com.wordpress.Testcases.TC2VerifyHomePage">
+        <methods>
+          <include name="verifyLoginWithDifferentRecords" invocation-numbers="0 1"/>
+          <include name="initialize"/>
+          <include name="setUp"/>
+          <include name="TeardownTest"/>
+        </methods>
+      </class> <!-- com.wordpress.Testcases.TC2VerifyHomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
